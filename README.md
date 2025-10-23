@@ -1,6 +1,6 @@
 Currency Converter
 
-This is a lightweight Python currency converter inspired by a guided project and refined through custom tweaks. Created after a recent trip abroad, this tool helps users quickly check how much their money is worth in different countries. It uses real-time exchange rate data from FreeCurrencyAPI and instantly converts a chosen currency into multiple others.
+A lightweight Python currency converter inspired by a guided project and refined through custom tweaks. Created after a recent trip abroad, it automates the process of fetching live exchange rates from an external API and instantly converts a chosen currency into multiple others.
 
 FreeCurrencyAPI is a free and reliable source for real-time foreign exchange data. The application connects to the API using a secure key stored in an environment variable.
 
