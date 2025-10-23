@@ -1,30 +1,24 @@
 Currency Converter
 
-A lightweight Python currency converter inspired by a guided project and refined through custom tweaks.
-Created after a recent trip abroad, this tool helps users quickly check how much their money is worth in different countries. It fetches real-time exchange rates from the FreeCurrencyAPI
- and instantly converts a chosen currency into multiple others.
+This is a lightweight Python currency converter inspired by a guided project and refined through custom tweaks. Created after a recent trip abroad, this tool helps users quickly check how much their money is worth in different countries. It uses real-time exchange rate data from FreeCurrencyAPI and instantly converts a chosen currency into multiple others.
+
+FreeCurrencyAPI is a free and reliable source for real-time foreign exchange data. The application connects to the API using a secure key stored in an environment variable.
 
 Features
 
- Fetches live currency data from FreeCurrencyAPI
-
+Fetches live currency data from FreeCurrencyAPI
 Converts one base currency into several others at once
-
-Uses environment variables to safely store API keys
-
-Clean, modular code that’s easy to read and extend
-
-Ideal for travelers, students, or anyone learning API integration in Python
+Uses environment variables to securely store the API key
+Clean, modular code that is easy to read and extend
+Suitable for travelers, students, or anyone learning about API integration in Python
 
 Tech Stack
 
 Language: Python
-
 Libraries: requests, os, dotenv
-
 API: FreeCurrencyAPI
 
-Setup & Usage
+Setup and Usage
 
 Clone the repository:
 
@@ -47,8 +41,7 @@ Run the converter:
 python currency_converter.py
 
 
-Follow the screen prompt to enter a base currency (e.g., USD, EUR, SAR).
-The app will display current conversion rates into multiple currencies.
+Follow the on-screen prompt to enter a base currency (for example: USD, EUR, SAR). The program will display the latest conversion rates for multiple currencies.
 
 Example Output
 Enter a base currency (e.g., USD): USD
@@ -61,5 +54,4 @@ Enter a base currency (e.g., USD): USD
 
 Data Source
 
-Exchange rate data is provided by FreeCurrencyAPI
-a free and reliable API for forex data.
+All exchange rate data is provided by FreeCurrencyAPI, a free and reliable API for live forex data.
